@@ -1,0 +1,48 @@
+body {
+      
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+    font-family: poppins;
+    color: #002044;
+  }
+
+  #canvas {
+    width: 400px;
+    height: 400px;
+    border: 2px solid #ffffff;
+    box-shadow: 2px 2px 20px 2px rgb(79, 79, 90);
+    display: grid;
+    margin: 1rem auto;
+    border-radius: 3px;
+    
+  }
+
+  .controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .controls button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  h1 {
+      text-align: center;
+  }
+  button {
+    cursor: pointer;
+    border: 1px solid rgb(0, 95, 82);
+    transition: 0.5s;
+    font-family: poppins;
+    
+
+  }
+
+  button:hover {
+    background-color: cadetblue;
+  }
